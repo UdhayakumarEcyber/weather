@@ -133,7 +133,8 @@ const DayWeatherlist = () => (
           <div className="weather_icon"><img src="images/sunny.png" /></div>  
 
            <div className="weather-content">
-                <h4>32 &#8451;</h4>
+                {/* <h4>32 &#8451;</h4> */}
+                <h4>32 <sup>o</sup><span>C</span></h4>
                 <p>Sunny Today</p>
             </div>
 
