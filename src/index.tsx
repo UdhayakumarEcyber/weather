@@ -108,10 +108,9 @@ const DayWeatherlist = () => (
 
           <div className="weather-video">
 
-              {/* <ReactVideo src="video/sunny.mp4" /> */}
+              {/* <ReactVideo src="video/sunny.mp4" /> */} 
 
-
-              <VideoBg> 
+              <VideoBg width="100%" height="100%"> 
                 <VideoBg.Source src="video/sunny.mp4" type="video/mp4" />
               </VideoBg>;
 
@@ -132,8 +131,7 @@ const DayWeatherlist = () => (
 
           <div className="weather_icon"><img src="images/sunny.png" /></div>  
 
-           <div className="weather-content">
-                {/* <h4>32 &#8451;</h4> */}
+           <div className="weather-content"> 
                 <h4>32 <sup>o</sup><span>C</span></h4>
                 <p>Sunny Today</p>
             </div>
